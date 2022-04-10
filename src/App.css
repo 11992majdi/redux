@@ -1,0 +1,40 @@
+.App {
+  text-align: center;
+  background: linear-gradient(rgb(5, 0, 5),rgb(24, 2, 26));
+  height: 200vh;
+  font-family: system-ui;
+  letter-spacing: 4px;
+   color: white;
+  font-size:25px ;
+
+}
+section{
+  background: url('stars.png');
+  height: 200vh;
+}
+section::before{
+  content: '';
+  width: 80px;
+  height: 80px;
+  background: #fff;
+  position: absolute;
+  left: 90%;
+  top: 0%;
+  transform: translate(-50%,70%);
+  border-radius: 50%;
+  box-shadow: 0 0 80px rgb(201, 135, 112);
+  
+}
+h3{
+  background: darkblue;
+  padding: 6px 25px;
+  border-radius: 20px;
+  border-bottom: 3px solid #fff;
+}
+Button:hover{
+  transform: scale(1.5);
+  transition:0.4s ;
+  
+}
+
+
