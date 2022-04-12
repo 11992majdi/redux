@@ -6,7 +6,7 @@ import TaskTodo from "./TaskTodo"
 
 const ListTasks = () => {
     const list=useSelector((state)=>state.Reducer_todo.Task)
-    const [Status, setStatus] = useState("ALL")
+    const [Status, setStatus] = useState("All")
   return (
     <div >
       <div style={{display:"flex",justifyContent:"space-evenly" ,margin:"5%"}}>
